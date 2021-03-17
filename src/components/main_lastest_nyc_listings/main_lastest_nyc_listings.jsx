@@ -4,7 +4,7 @@ import styles from './main_lastest_nyc_listings.module.css';
 const MainLastestNycListings = (props) => (
     <>
         <div className={ styles.title }>
-            <h1>最新房源：纽约-曼哈顿</h1>
+            <h1>最新房源：纽约-曼哈顿 Hello world</h1>
         </div>
         <div className={ styles.listingContainer }>
             <div className={ styles.listingCard }>
