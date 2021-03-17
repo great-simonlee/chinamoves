@@ -10,17 +10,17 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/aboutus">
+        <Route path="/chinamoves/aboutus">
           <Header />
           <AboutUs />
           <Footer />
         </Route>
-        <Route path="/aboutagents">
+        <Route path="/chinamoves/aboutagents">
           <Header />
           <AboutAgents />
           <Footer />
         </Route>
-        <Route path={["/", ""]}>
+        <Route path={["", "/", "/chinamoves/", "/chinamoves"]}>
           <Header />
           {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/Tf_t5d63pHA?autoplay=1&controls=0&mute=1&disablekb=1&playlist=Tf_t5d63pHA&loop=1" frameBorder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
           <BodyContent />
