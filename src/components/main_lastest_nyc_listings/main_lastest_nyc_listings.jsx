@@ -8,7 +8,7 @@ const MainLastestNycListings = (props) => (
         </div>
         <div className={ styles.listingContainer }>
             <div className={ styles.listingCard }>
-                <img src={ process.env.PUBLIC_URL + "/images/listing_item.jpeg" }/>
+                <img src="/chinamoves/images/listing_item.jpeg"/>
                 <div>
                     <span>606 57th St</span>
                     <div>
