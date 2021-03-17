@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chinamoves/static/css/main.95ca366c.chunk.css",
-    "main.js": "/chinamoves/static/js/main.cd6b4ebd.chunk.js",
-    "main.js.map": "/chinamoves/static/js/main.cd6b4ebd.chunk.js.map",
+    "main.js": "/chinamoves/static/js/main.2cc78261.chunk.js",
+    "main.js.map": "/chinamoves/static/js/main.2cc78261.chunk.js.map",
     "runtime-main.js": "/chinamoves/static/js/runtime-main.a274550e.js",
     "runtime-main.js.map": "/chinamoves/static/js/runtime-main.a274550e.js.map",
     "static/js/2.f2189747.chunk.js": "/chinamoves/static/js/2.f2189747.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a274550e.js",
     "static/js/2.f2189747.chunk.js",
     "static/css/main.95ca366c.chunk.css",
-    "static/js/main.cd6b4ebd.chunk.js"
+    "static/js/main.2cc78261.chunk.js"
   ]
 }
