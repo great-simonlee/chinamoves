@@ -1,4 +1,40 @@
-.listingcontainer {
-    background-color: grey;
-    text-align: left;
+.title {
+  text-align: left;
+  margin-top: 4em;
+}
+
+.listingContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.listingCard {
+  position: relative;
+  margin: 20px 20px;
+  width: 320px;
+  cursor: pointer;
+}
+
+.listingImg {
+  position: relative;
+  height: 240px;
+  width: 320px;
+  z-index: 0;
+}
+
+.listingInfo {
+  position: absolute;
+  top: 0;
+  padding-top: 58%;
+  height: 240px;
+  width: 320px;
+  color: white;
+  z-index: 1;
+  background: linear-gradient(transparent 60%, rgb(63, 63, 63));
+}
+
+.typePrice {
+  display: flex;
+  padding: 0.2em 2em 0 2em;
+  justify-content: space-between;
 }
