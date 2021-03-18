@@ -8,7 +8,7 @@ const MainLastestBostonListings = (props) => (
         </div>
         <div className={ styles.listingContainer }>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg"/>
+                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="examples_img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -18,7 +18,7 @@ const MainLastestBostonListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg"/>
+                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="examples_img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -28,7 +28,7 @@ const MainLastestBostonListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg"/>
+                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="examples_img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -38,7 +38,7 @@ const MainLastestBostonListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg"/>
+                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="examples_img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -48,7 +48,7 @@ const MainLastestBostonListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg"/>
+                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="examples_img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -58,7 +58,7 @@ const MainLastestBostonListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg"/>
+                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="examples_img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>

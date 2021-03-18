@@ -1,55 +1,143 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: black;
-    width: 100%;
-    min-width: 1080px;
-    height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  min-width: 1080px;
+  height: 70px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 5em;
-    width: 15em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 5em;
+  width: 15em;
 }
 
 .logoImg {
-    height: 40px;
-    margin-right: 0.2em;
+  height: 40px;
+  margin-right: 0.2em;
 }
 
 .logoText {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
-    color: white;
-    font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 900;
 }
 
 .logoTextMid {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
-    color: white;
-    font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
 }
 
 .logoTextEnd {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
-    color: #FFD36B;
-    font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  color: #ffd36b;
+  font-weight: 900;
 }
 
 .headerBtn {
-    display: flex;
-    color: white;
-    margin-right: 5em;
-    cursor: pointer;
+  display: flex;
+  color: white;
+  margin-right: 5em;
+  cursor: pointer;
+}
+
+.closeBtnBox {
+  text-align: right;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+  transition: transform 0.5s;
+}
+
+.closeBtn:hover {
+  transform: rotate(90deg);
+}
+
+.closeBtn:focus {
+  outline: none;
+}
+
+.loginInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0 0 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.loginInfoTitle {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  cursor: default;
+}
+
+.loginInputBox {
+  font-size: 20px;
+  padding: 15px 0;
+  margin: 5px 30px;
+  border-radius: 30px;
+  width: 300px;
+  background-color: lightgray;
+}
+
+.loginInput {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 230px;
+  background-color: transparent;
+  border: none;
+}
+
+.loginInput:focus {
+  outline: none;
 }
 
 .Btn {
-    margin: 0 1em;
-    font-weight: 500;
+  margin: 0 1em;
+  font-weight: 500;
+}
+
+.Btn:hover {
+  border-bottom: white 1px solid;
+}
+
+.loginSubmit {
+  height: 45px;
+  width: 300px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 30px;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: white;
+  cursor: pointer;
+  transition: background-color 250ms, color 250ms;
+}
+
+.loginSubmit:hover {
+  background-color: white;
+  color: black;
+}
+
+.loginSubmit:focus {
+  outline: none;
+}
+
+.signinBtn {
+  margin-top: 100px;
+  font-weight: 600;
 }

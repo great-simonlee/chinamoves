@@ -1,24 +1,24 @@
 .mainImgContainer {
-    position: relative;
+  position: relative;
 }
 
 .mainImg {
-    z-index: 0;
-    width: 100%;
-    min-width: 1080px;
+  z-index: -1;
+  width: 100%;
+  min-width: 1080px;
 }
 
 .mainImgText {
-    font-family: 'Raleway', sans-serif;
-    width: 100%;
-    font-weight: 900;
-    z-index: 1;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    font-size: 64px;
-    z-index: 1;
-    color: whitesmoke;
-    cursor: default;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  font-weight: 900;
+  z-index: 1;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 64px;
+  z-index: 0;
+  color: whitesmoke;
+  cursor: default;
 }
