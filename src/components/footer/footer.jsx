@@ -26,7 +26,7 @@ const Footer = (props) => {
             </div>
             <div className={ styles.closure }>
                 <p>
-                    <span>Copyright NEW YORK MOVES TEAM, LLC. All Rights Reserved.</span>
+                    <span>Copyright 2021 NEW YORK MOVES TEAM, LLC. All Rights Reserved.</span>
                 </p>
                 <div>
                     <span className={ styles.closureItem }>Terms of Service</span>
