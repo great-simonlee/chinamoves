@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/chinamoves/static/css/main.db849c30.chunk.css",
-    "main.js": "/chinamoves/static/js/main.929835e6.chunk.js",
-    "main.js.map": "/chinamoves/static/js/main.929835e6.chunk.js.map",
+    "main.css": "/chinamoves/static/css/main.58ef183b.chunk.css",
+    "main.js": "/chinamoves/static/js/main.40bffd23.chunk.js",
+    "main.js.map": "/chinamoves/static/js/main.40bffd23.chunk.js.map",
     "runtime-main.js": "/chinamoves/static/js/runtime-main.a274550e.js",
     "runtime-main.js.map": "/chinamoves/static/js/runtime-main.a274550e.js.map",
-    "static/js/2.f3ca428d.chunk.js": "/chinamoves/static/js/2.f3ca428d.chunk.js",
-    "static/js/2.f3ca428d.chunk.js.map": "/chinamoves/static/js/2.f3ca428d.chunk.js.map",
+    "static/js/2.558f5775.chunk.js": "/chinamoves/static/js/2.558f5775.chunk.js",
+    "static/js/2.558f5775.chunk.js.map": "/chinamoves/static/js/2.558f5775.chunk.js.map",
     "index.html": "/chinamoves/index.html",
-    "static/css/main.db849c30.chunk.css.map": "/chinamoves/static/css/main.db849c30.chunk.css.map",
-    "static/js/2.f3ca428d.chunk.js.LICENSE.txt": "/chinamoves/static/js/2.f3ca428d.chunk.js.LICENSE.txt"
+    "static/css/main.58ef183b.chunk.css.map": "/chinamoves/static/css/main.58ef183b.chunk.css.map",
+    "static/js/2.558f5775.chunk.js.LICENSE.txt": "/chinamoves/static/js/2.558f5775.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a274550e.js",
-    "static/js/2.f3ca428d.chunk.js",
-    "static/css/main.db849c30.chunk.css",
-    "static/js/main.929835e6.chunk.js"
+    "static/js/2.558f5775.chunk.js",
+    "static/css/main.58ef183b.chunk.css",
+    "static/js/main.40bffd23.chunk.js"
   ]
 }
