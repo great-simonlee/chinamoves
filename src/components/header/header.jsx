@@ -38,7 +38,7 @@ const Header = (props) => {
                     <p className={ styles.Btn }>房源</p>
                     <p className={ styles.Btn }>转租</p>
                     <p className={ styles.Btn }>找室友</p>
-                    <p className={ styles.Btn }>联系我们</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/contactus")} }>联系我们</p>
                     <p className={ styles.Btn } onClick={ () => {setModalIsOpen(true)} }>注册/登陆</p>
                 </div>
             </header>
@@ -56,7 +56,7 @@ const Header = (props) => {
                     </div>
                     <button className={ styles.loginSubmit }>LOGIN</button>
                     <div>Forgot Username / Password?</div>
-                    <div className={ styles.signinBtn }>Create your Account <i class="fas fa-arrow-right"></i></div>
+                    <div className={ styles.signinBtn }>Create your Account <i className="fas fa-arrow-right"></i></div>
                 </section>
             </Modal>
         </>

@@ -5,6 +5,7 @@ import Footer from './components/footer/footer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import AboutUs from './components/aboutus/aboutus_main/aboutus';
 import Modal from 'react-modal';
+import ContactPage from './pages/ContactPage';
 
 Modal.setAppElement('#root');
 
@@ -16,6 +17,9 @@ function App() {
           <Header />
           <AboutUs />
           <Footer />
+        </Route>
+        <Route path="/chinamoves/contactus">
+          <ContactPage />
         </Route>
         <Route path={["", "/", "/chinamoves/", "/chinamoves"]}>
           <Header />

@@ -1,0 +1,85 @@
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.contactBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1080px;
+  margin: 0 0 2em 0;
+  /* -webkit-box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.submitForm {
+  margin: 20px;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+}
+
+.submitFormLabel {
+  margin: 15px 0 5px 0;
+}
+
+.submitFormInput {
+  min-width: 600px;
+  max-width: 600px;
+  font-size: 16px;
+  padding: 7px 7px;
+  background-color: lightgray;
+  border: lightgray 1px solid;
+  border-radius: 5px;
+}
+
+.submitFormInput:focus {
+  outline: none;
+  border: gray 1px solid;
+}
+
+.submitFormBtn {
+  margin-top: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+  padding: 0 0 0 1em;
+  height: 220px;
+  width: 400px;
+  color: black;
+}
+
+.contactInfoDiv {
+  margin-bottom: 2em;
+}
+
+.contactInfoDivSNS {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5em;
+  font-size: 26px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  height: 200px;
+  width: 400px;
+}
+
+.locationImg {
+  height: 200px;
+  width: 400px;
+  border: darkgray 1px solid;
+}
