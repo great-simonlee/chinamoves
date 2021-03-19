@@ -37,7 +37,7 @@ const ContactusContent = (props) => {
                         <input className={ styles.submitFormInput } type="text" name="sns" id="sns"/>
                         <label className={ styles.submitFormLabel } htmlFor="message">Message&nbsp;<i className="fas fa-asterisk" style={{color: "red", fontSize: 8, marginBottom: 5}}></i></label>
                         <textarea ref={msgRef} className={ styles.submitFormInput } name="message" id="message" cols="30" rows="9" ></textarea>
-                        <button className={ styles.submitFormBtn } type="submit">Submit</button>
+                        <button className={ styles.submitFormBtn } type="submit">Ask Our Expert</button>
                     </form>
                 </div>
                 <div>

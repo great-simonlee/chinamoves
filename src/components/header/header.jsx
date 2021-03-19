@@ -35,9 +35,9 @@ const Header = (props) => {
                 </div>
                 <div className={ styles.headerBtn }>
                     <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/aboutus")} }>关于我们</p>
-                    <p className={ styles.Btn }>房源</p>
-                    <p className={ styles.Btn }>转租</p>
-                    <p className={ styles.Btn }>找室友</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/listings")} }>房源</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/sublet")} }>转租</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/roommate")} }>找室友</p>
                     <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/contactus")} }>联系我们</p>
                     <p className={ styles.Btn } onClick={ () => {setModalIsOpen(true)} }>注册/登陆</p>
                 </div>

@@ -6,6 +6,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import AboutUs from './components/aboutus/aboutus_main/aboutus';
 import Modal from 'react-modal';
 import ContactPage from './pages/ContactPage';
+import ListingsPage from './pages/ListingsPage';
+import RoommatePage from './pages/RoommatePage';
+import SubletPage from './pages/SubletPage';
 
 Modal.setAppElement('#root');
 
@@ -20,6 +23,15 @@ function App() {
         </Route>
         <Route path="/chinamoves/contactus">
           <ContactPage />
+        </Route>
+        <Route path="/chinamoves/listings">
+          <ListingsPage />
+        </Route>
+        <Route path="/chinamoves/roommate">
+          <RoommatePage />
+        </Route>
+        <Route path="/chinamoves/sublet">
+          <SubletPage />
         </Route>
         <Route path={["", "/", "/chinamoves/", "/chinamoves"]}>
           <Header />
