@@ -22,6 +22,16 @@ const ContactusContent = (props) => {
         }
 
         e.target.reset();
+    };
+
+    const visibleWechat = () => {
+        const qr = document.querySelector("#wechatQR");
+        qr.style.visibility = "visible";
+    }
+
+    const onClose = () => {
+        const qr = document.querySelector("#wechatQR");
+        qr.style.visibility = "hidden";
     }
 
     return (
@@ -54,16 +64,20 @@ const ContactusContent = (props) => {
                             <i className="far fa-envelope" style={{color: "#adcae6"}}></i>
                             <span>&nbsp;&nbsp;&nbsp;&nbsp;Rainie@newyorkmovesre.com</span>
                         </div>
+                        <div id='wechatQR' className={ styles.wechatQR }>
+                            <img className={ styles.wechatQRImg } src="/chinamoves/images/wechatQR.jpg" alt="WeChat QR"/>
+                            <button className={ styles.closeBtn } onClick={ onClose }><i className={`fas fa-times closeIcon ${styles.closeIcon}`}></i></button>
+                        </div>
                         <div className={ styles.contactInfoDivSNS }>
-                            <i className="fab fa-weixin" style={{color: "#7bb32e"}}></i>
-                            <i className="fab fa-facebook" style={{color: "#4267B2"}}></i>
-                            <i className="fab fa-instagram-square" style={{color: "#E1306C"}}></i>
-                            <i className="fas fa-compass" style={{color: "#0FB5EE"}}></i>
-                            <i className="fab fa-linkedin" style={{color: "#2867B2"}}></i>
+                            <button className={ styles.wechatBtn } onClick={ visibleWechat }><i className={`fab fa-weixin ${ styles.wechat }`} style={{color: "#7bb32e"}}></i></button>
+                            <a href="https://www.facebook.com/newyorkmovesre" target="_blank" rel="noreferrer"><i className="fab fa-facebook" style={{color: "#4267B2"}}></i></a>
+                            <a href="https://www.instagram.com/newyorkmovesteam/" target="_blank" rel="noreferrer"><i className="fab fa-instagram-square" style={{color: "#E1306C"}}></i></a>
+                            <a href="https://newyorkmovesre.com/" target="_blank" rel="noreferrer"><i className="fas fa-compass" style={{color: "#0FB5EE"}}></i></a>
+                            <a href="https://www.linkedin.com/company/new-york-moves/about/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin" style={{color: "#2867B2"}}></i></a>
                         </div>
                     </div>
                     <div className={ styles.location }>
-                        <img className={ styles.locationImg }src="/chinamoves/images/contactus_location.png" alt="location"/>
+                        <img className={ styles.locationImg } src="/chinamoves/images/contactus_location.png" alt="location"/>
                     </div>
                 </div>
             </div>

@@ -96,3 +96,55 @@
   width: 400px;
   border: darkgray 1px solid;
 }
+
+.wechat {
+  cursor: pointer;
+}
+
+.wechatQR {
+  position: absolute;
+  display: flex;
+  visibility: hidden;
+  background-color: white;
+  justify-content: center;
+  padding-left: 2em;
+  width: 350px;
+  height: 200px;
+}
+
+.wechatQRImg {
+  width: 200px;
+}
+
+.wechatBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+.wechatBtn:focus {
+  outline: none;
+}
+
+.closeBtn {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  transition: transform 500ms;
+}
+
+.closeBtn:focus {
+  outline: none;
+}
+
+.closeBtn:hover {
+  transform: rotate(90deg);
+}
+
+.closeIcon {
+  color: #f2aa4c;
+  cursor: pointer;
+  font-size: 30px;
+  margin-bottom: 12em;
+}
