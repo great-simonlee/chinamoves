@@ -12,14 +12,13 @@ import SubletPage from './pages/SubletPage';
 
 Modal.setAppElement('#root');
 
-function App() {
+function App({ authService }) {
   return (
     <BrowserRouter>
+      <Header authService={ authService }/>
       <Switch>
         <Route path="/chinamoves/aboutus">
-          <Header />
           <AboutUs />
-          <Footer />
         </Route>
         <Route path="/chinamoves/contactus">
           <ContactPage />
@@ -34,11 +33,10 @@ function App() {
           <SubletPage />
         </Route>
         <Route path={["", "/", "/chinamoves/", "/chinamoves"]}>
-          <Header />
           <BodyContent />
-          <Footer />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

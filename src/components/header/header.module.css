@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -73,21 +77,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 60px 0 0 0;
+
   font-family: "Raleway", sans-serif;
 }
 
 .loginInfoTitle {
   font-size: 35px;
   font-weight: 800;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   cursor: default;
 }
 
 .loginInputBox {
-  font-size: 20px;
-  padding: 15px 0;
-  margin: 5px 30px;
+  font-size: 16px;
+  padding: 12px 0;
+  margin: 7px 30px;
   border-radius: 30px;
   width: 300px;
   background-color: lightgray;
@@ -95,7 +99,7 @@
 
 .loginInput {
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 16px;
   width: 230px;
   background-color: transparent;
   border: none;
@@ -115,6 +119,7 @@
 }
 
 .loginSubmit {
+  font-size: 16px;
   height: 45px;
   width: 300px;
   margin: 10px 0;
@@ -125,19 +130,102 @@
   font-weight: 800;
   color: white;
   cursor: pointer;
-  transition: background-color 250ms, color 250ms;
+  transition: opacity 250ms;
 }
 
 .loginSubmit:hover {
-  background-color: white;
-  color: black;
+  opacity: 0.7;
 }
 
 .loginSubmit:focus {
   outline: none;
 }
 
+.forgotIDPW {
+  cursor: pointer;
+}
+
 .signinBtn {
-  margin-top: 100px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 15px;
   font-weight: 600;
+}
+
+.divider {
+  color: darkgray;
+}
+
+.snslogin {
+  font-family: "Raleway", sans-serif;
+}
+
+.facebook {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 250ms;
+}
+
+.facebook:hover {
+  opacity: 0.7;
+}
+
+.facebookIcon {
+  padding: 10px 18px;
+  background-color: #273e6a;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: white;
+}
+
+.facebookBtn {
+  padding: 10px 35px;
+  background-color: #385999;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.facebookBtn > p {
+  margin: 0;
+}
+
+.google {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 250ms;
+}
+
+.google:hover {
+  opacity: 0.7;
+}
+
+.googleIcon {
+  padding: 10px 15px;
+  background-color: #a03228;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: white;
+}
+
+.googleBtn {
+  padding: 10px 44px;
+  background-color: #c43b2e;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.googleBtn > p {
+  margin: 0;
 }

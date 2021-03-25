@@ -3,7 +3,7 @@ import { useHistory } from 'react-router';
 import styles from './header.module.css';
 import Modal from 'react-modal';
 
-const Header = (props) => {
+const Header = ({ authService }) => {
     const history = useHistory();
     const [ modalIsOpen, setModalIsOpen ] = useState(false);
     const modalStyle = {
@@ -25,6 +25,12 @@ const Header = (props) => {
             width: '400px'
         }
     }
+
+    const onLogin = (event) => {
+        authService //
+            .login(event.currentTarget.id)
+            .then((result) => console.log(result.user.displayName))
+    };
 
     return (
         <>
@@ -55,8 +61,19 @@ const Header = (props) => {
                         <i className="fas fa-key"></i><input className={ styles.loginInput } type="text" placeholder="Password"/>
                     </div>
                     <button className={ styles.loginSubmit }>LOGIN</button>
-                    <div>Forgot Username / Password?</div>
+                    <div className={ styles.forgotIDPW }>Forgot Username / Password?</div>
                     <div className={ styles.signinBtn }>Create your Account <i className="fas fa-arrow-right"></i></div>
+                    <p className={ styles.divider }>OR</p>
+                </section>
+                <section className={ styles.snslogin }>
+                    <div className={ styles.facebook } onClick={ onLogin } id="Facebook">
+                        <div className={ styles.facebookIcon }><i className="fab fa-facebook-f"></i></div>
+                        <div className={ styles.facebookBtn }><p>LOGIN WITH FACEBOOK</p></div>
+                    </div>
+                    <div className={ styles.google } onClick={ onLogin } id="Google">
+                        <div className={ styles.googleIcon }><i className="fab fa-google"></i></div>
+                        <div className={ styles.googleBtn }><p>LOGIN WITH GOOGLE</p></div>
+                    </div>
                 </section>
             </Modal>
         </>
