@@ -1,20 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.b5167347.chunk.css",
-    "main.js": "/static/js/main.cdb19365.chunk.js",
-    "main.js.map": "/static/js/main.cdb19365.chunk.js.map",
+    "main.js": "/static/js/main.06648bf8.chunk.js",
+    "main.js.map": "/static/js/main.06648bf8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.646feff7.js",
     "runtime-main.js.map": "/static/js/runtime-main.646feff7.js.map",
     "static/js/2.3c71a063.chunk.js": "/static/js/2.3c71a063.chunk.js",
     "static/js/2.3c71a063.chunk.js.map": "/static/js/2.3c71a063.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.b5167347.chunk.css.map": "/static/css/main.b5167347.chunk.css.map",
-    "static/js/2.3c71a063.chunk.js.LICENSE.txt": "/static/js/2.3c71a063.chunk.js.LICENSE.txt"
+    "static/js/2.3c71a063.chunk.js.LICENSE.txt": "/static/js/2.3c71a063.chunk.js.LICENSE.txt",
+    "static/media/contactus_banner.db0856d9.jpg": "/static/media/contactus_banner.db0856d9.jpg",
+    "static/media/contactus_location.13f9125f.png": "/static/media/contactus_location.13f9125f.png",
+    "static/media/listing_item.b62faa40.jpeg": "/static/media/listing_item.b62faa40.jpeg",
+    "static/media/main_image.7be703d4.jpg": "/static/media/main_image.7be703d4.jpg",
+    "static/media/wechatQR.d50af974.jpg": "/static/media/wechatQR.d50af974.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.646feff7.js",
     "static/js/2.3c71a063.chunk.js",
     "static/css/main.b5167347.chunk.css",
-    "static/js/main.cdb19365.chunk.js"
+    "static/js/main.06648bf8.chunk.js"
   ]
 }
