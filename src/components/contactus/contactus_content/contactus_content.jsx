@@ -1,6 +1,8 @@
 import React, { createRef } from 'react';
 import emailjs from 'emailjs-com';
 import styles from './contactus_content.module.css';
+import contactLocPic from '../../../images/contactus_location.png';
+import wechatQRPic from '../../../images/wechatQR.jpg';
 import { useAlert } from 'react-alert';
 
 const ContactusContent = (props) => {
@@ -41,8 +43,8 @@ const ContactusContent = (props) => {
                     <form className={ styles.submitForm } onSubmit={ sendEmail }>
                         <label className={ styles.submitFormLabel } htmlFor="name">Name&nbsp;<i className="fas fa-asterisk" style={{color: "red", fontSize: 8, marginBottom: 5}}></i></label>
                         <input ref={nameRef} className={ styles.submitFormInput } type="text" name="name" id="name"/>
-                        <label className={ styles.submitFormLabel } htmlFor="email">Email&nbsp;<i className="fas fa-asterisk" style={{color: "red", fontSize: 8, marginBottom: 5}}></i></label>
-                        <input ref={emailRef} className={ styles.submitFormInput } type="email" name="email" id="email"/>
+                        <label className={ styles.submitFormLabel } htmlFor="contactEmail">Email&nbsp;<i className="fas fa-asterisk" style={{color: "red", fontSize: 8, marginBottom: 5}}></i></label>
+                        <input ref={emailRef} className={ styles.submitFormInput } type="email" name="email" id="contactEmail"/>
                         <label className={ styles.submitFormLabel } htmlFor="sns">WeChat / Phone number</label>
                         <input className={ styles.submitFormInput } type="text" name="sns" id="sns"/>
                         <label className={ styles.submitFormLabel } htmlFor="message">Message&nbsp;<i className="fas fa-asterisk" style={{color: "red", fontSize: 8, marginBottom: 5}}></i></label>
@@ -65,7 +67,7 @@ const ContactusContent = (props) => {
                             <span>&nbsp;&nbsp;&nbsp;&nbsp;Rainie@newyorkmovesre.com</span>
                         </div>
                         <div id='wechatQR' className={ styles.wechatQR }>
-                            <img className={ styles.wechatQRImg } src="/chinamoves/images/wechatQR.jpg" alt="WeChat QR"/>
+                            <img className={ styles.wechatQRImg } src={ wechatQRPic } alt="WeChat QR"/>
                             <button className={ styles.closeBtn } onClick={ onClose }><i className={`fas fa-times closeIcon ${styles.closeIcon}`}></i></button>
                         </div>
                         <div className={ styles.contactInfoDivSNS }>
@@ -77,7 +79,7 @@ const ContactusContent = (props) => {
                         </div>
                     </div>
                     <div className={ styles.location }>
-                        <img className={ styles.locationImg } src="/chinamoves/images/contactus_location.png" alt="location"/>
+                        <img className={ styles.locationImg } src={ contactLocPic } alt="location"/>
                     </div>
                 </div>
             </div>

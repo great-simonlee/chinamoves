@@ -229,3 +229,7 @@
 .googleBtn > p {
   margin: 0;
 }
+
+.userSignUpForm {
+  display: none;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import examplePic from '../../../images/listing_item.jpeg';
 import styles from './main_lastest_nyc_listings.module.css';
 
 const MainLastestNycListings = (props) => (
@@ -8,7 +9,7 @@ const MainLastestNycListings = (props) => (
         </div>
         <div className={ styles.listingContainer }>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="example img"/>
+                <img className={ styles.listingImg } src={examplePic} alt="example img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -18,7 +19,7 @@ const MainLastestNycListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="example img"/>
+                <img className={ styles.listingImg } src={examplePic} alt="example img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -28,7 +29,7 @@ const MainLastestNycListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="example img"/>
+                <img className={ styles.listingImg } src={examplePic} alt="example img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -38,7 +39,7 @@ const MainLastestNycListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="example img"/>
+                <img className={ styles.listingImg } src={examplePic} alt="example img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -48,7 +49,7 @@ const MainLastestNycListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="example img"/>
+                <img className={ styles.listingImg } src={examplePic} alt="example img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
@@ -58,7 +59,7 @@ const MainLastestNycListings = (props) => (
                 </div>
             </div>
             <div className={ styles.listingCard }>
-                <img className={ styles.listingImg } src="/chinamoves/images/listing_item.jpeg" alt="example img"/>
+                <img className={ styles.listingImg } src={examplePic} alt="example img"/>
                 <div className={ styles.listingInfo }>
                     <span>606 57th St</span>
                     <div className={ styles.typePrice }>
