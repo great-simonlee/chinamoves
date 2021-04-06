@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc742047.chunk.css",
-    "main.js": "/static/js/main.c9247fad.chunk.js",
-    "main.js.map": "/static/js/main.c9247fad.chunk.js.map",
+    "main.css": "/static/css/main.a3a0aaf6.chunk.css",
+    "main.js": "/static/js/main.b77841a1.chunk.js",
+    "main.js.map": "/static/js/main.b77841a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.646feff7.js",
     "runtime-main.js.map": "/static/js/runtime-main.646feff7.js.map",
     "static/js/2.82d7825c.chunk.js": "/static/js/2.82d7825c.chunk.js",
     "static/js/2.82d7825c.chunk.js.map": "/static/js/2.82d7825c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cc742047.chunk.css.map": "/static/css/main.cc742047.chunk.css.map",
+    "static/css/main.a3a0aaf6.chunk.css.map": "/static/css/main.a3a0aaf6.chunk.css.map",
     "static/js/2.82d7825c.chunk.js.LICENSE.txt": "/static/js/2.82d7825c.chunk.js.LICENSE.txt",
     "static/media/contactus_banner.db0856d9.jpg": "/static/media/contactus_banner.db0856d9.jpg",
     "static/media/contactus_location.13f9125f.png": "/static/media/contactus_location.13f9125f.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.646feff7.js",
     "static/js/2.82d7825c.chunk.js",
-    "static/css/main.cc742047.chunk.css",
-    "static/js/main.c9247fad.chunk.js"
+    "static/css/main.a3a0aaf6.chunk.css",
+    "static/js/main.b77841a1.chunk.js"
   ]
 }
