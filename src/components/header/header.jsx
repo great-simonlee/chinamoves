@@ -80,6 +80,7 @@ const Header = ({ authService }) => {
 
     const sendEmailVerification = () => {
         authService.sendVerificaiton();
+        document.getElementById("verifyEmailMsg").innerHTML = "We sent an email to make sure you own it. Please check your inbox and follow the instructions to finish setting up your account."
         // setModalIsOpen(false);
     }
 
@@ -176,41 +177,35 @@ const Header = ({ authService }) => {
                     </div>
                 </section>
                 <section id="userSignUpForm" className={ styles.userSignUpForm }>
-                    <div className={ styles.signUpTitle }>SIGN UP</div>
+                    <div className={ styles.signUpTitle }>Welcome to Join Us</div>
                     <form ref={ formRef }>
-                        <div>
-                            <label htmlFor="email">Email: </label>
-                            <input ref={ emailRef } type="email" id="email" required/>
+                        <div className={ styles.signUpInputBox }>
+                            <input ref={ emailRef } type="email" className={ styles.signUpInputBoxElement } id="email" placeholder="Email..." required/>
                         </div>
-                        <div>
-                            <label htmlFor="password">Password: </label>
-                            <input ref={ passwordRef } type="password" id="password" required/>
+                        <div className={ styles.signUpInputBox }>
+                            <input ref={ passwordRef } type="password" className={ styles.signUpInputBoxElement } id="password" placeholder="Password..." required/>
                         </div>
-                        <div>
-                            <label htmlFor="conPassword">Confirm Password: </label>
-                            <input type="password" id="conPassword" required/>
+                        <div className={ styles.signUpInputBox }>
+                            <input type="password" className={ styles.signUpInputBoxElement } id="conPassword" placeholder="Confirm Password..." required/>
                         </div>
-                        <div>
-                            <label htmlFor="firstname">First Name: </label>
-                            <input ref={ firstnameRef } type="text" id="firstname" required/>
+                        <div className={ styles.signUpInputBox }>
+                            <input ref={ firstnameRef } type="text" className={ styles.signUpInputBoxElement } id="firstname" placeholder="First Name..." required/>
                         </div>
-                        <div>
-                            <label htmlFor="lastname">Last Name: </label>
-                            <input ref={ lastnameRef } type="text" id="lastname" required/>
+                        <div className={ styles.signUpInputBox }>
+                            <input ref={ lastnameRef } type="text" className={ styles.signUpInputBoxElement } id="lastname" placeholder="Last Name..." required/>
                         </div>
-                        <div>
-                            <label htmlFor="phoneNumber">Phone Number: </label>
-                            <input ref={ numberRef } type="tel" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
+                        <div className={ styles.signUpInputBox }>
+                            <input ref={ numberRef } type="tel" className={ styles.signUpInputBoxElement } id="phoneNumber" placeholder="PhoneNumber..." pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"/>
                         </div>
-                        <button onClick={ userSignUp }>SIGN UP</button>
+                        <button className={ styles.pageBtn } onClick={ userSignUp }>Sign Up</button>
                     </form>
-                    <button onClick={ backToLogin }>Back to LogIn</button>
+                    <button className={ styles.pageBtnBack } onClick={ backToLogin }>Back to LogIn</button>
                 </section>
                 <section id="emailVerification" className={ styles.emailVerification }>
-                    <div>Email Verification</div>
-                    <span>Please verify your email to get the full access to the website.</span>
-                    <button onClick={ sendEmailVerification }><span>Verify Your Email</span></button>
-                    
+                    <div className={ styles.verifyTitle } >Email Verification</div>
+                    <span className={ styles.verifyDesc } >Please verify your email to get the full access to the website.</span>
+                    <button className={ styles.verifyBtn }  onClick={ sendEmailVerification }><span>Verify Your Email</span></button>
+                    <span id="verifyEmailMsg" className={ styles.verifyDesc } ></span>
                 </section>
             </Modal>
         </>

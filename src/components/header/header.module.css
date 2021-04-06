@@ -102,6 +102,7 @@
   width: 230px;
   background-color: transparent;
   border: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .loginInput:focus {
@@ -233,9 +234,122 @@
 .userSignUpForm {
   display: none;
   flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.signUpTitle {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.signUpInputBox {
+  margin: 0.7rem 0;
+  padding: 0.7rem 1.3rem;
+  border-radius: 25px;
+  background-color: lightgray;
+}
+
+.signUpInputBoxElement {
+  width: 15rem;
+  background-color: lightgray;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-family: "Raleway", sans-serif;
+}
+
+.signUpInputBoxElement:focus {
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.signUpInputBoxElement:hover {
+  opacity: 0.6;
+}
+
+.pageBtn {
+  margin: 0.3rem 0;
+  padding: 0.7rem;
+  width: 18rem;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border: 1px solid white;
+  transition: 200ms;
+}
+
+.pageBtn:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.pageBtn:focus {
+  outline: none;
+}
+
+.pageBtnBack {
+  background-color: transparent;
+  border: none;
+  color: #385999;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 4px;
 }
 
 .emailVerification {
   display: none;
   flex-direction: column;
+  font-family: "Raleway", sans-serif;
+}
+
+.verifyTitle {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.verifyDesc {
+  margin: 3rem 0;
+  font-size: 20px;
+}
+
+.verifyBtn {
+  background-image: linear-gradient(
+    to right,
+    #16222a 0%,
+    #3a6073 51%,
+    #16222a 100%
+  );
+}
+.verifyBtn {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  transition: 350ms;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+.verifyBtn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.verifyBtn:focus {
+  outline: none;
 }
