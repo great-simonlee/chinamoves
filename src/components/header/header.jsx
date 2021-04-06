@@ -132,16 +132,16 @@ const Header = ({ authService }) => {
     return (
         <>
             <header className={ styles.header } onLoad={ changePageUserLogin }>
-                <div className={ styles.logo } onClick={ () => {history.push("/chinamoves/")} }>
+                <div className={ styles.logo } onClick={ () => {history.push("/")} }>
                     <img className={ styles.logoImg } src={ logo } alt="ChinaMoves"/>
                     <p className={ styles.logoText }>CHINA</p><p className={ styles.logoTextMid }>MOVES</p><p className={ styles.logoText }>USA</p><p className={ styles.logoTextEnd }>.com</p>
                 </div>
                 <div className={ styles.headerBtn }>
-                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/aboutus")} }>关于我们</p>
-                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/listings")} }>房源</p>
-                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/sublet")} }>转租</p>
-                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/roommate")} }>找室友</p>
-                    <p className={ styles.Btn } onClick={ () => {history.push("/chinamoves/contactus")} }>联系我们</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/aboutus")} }>关于我们</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/listings")} }>房源</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/sublet")} }>转租</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/roommate")} }>找室友</p>
+                    <p className={ styles.Btn } onClick={ () => {history.push("/contactus")} }>联系我们</p>
                     <p id="logIn" className={ styles.Btn } onClick={ () => {setModalIsOpen(true)} }>注册/登陆</p>
                     <p id="logOut" className={ styles.Btn } onClick={ logOut }>退出当前账号</p>
                 </div>

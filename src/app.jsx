@@ -17,22 +17,22 @@ function App({ authService }) {
     <BrowserRouter>
       <Header authService={ authService }/>
       <Switch>
-        <Route path="/chinamoves/aboutus">
+        <Route path="/aboutus">
           <AboutUs />
         </Route>
-        <Route path="/chinamoves/contactus">
+        <Route path="/contactus">
           <ContactPage />
         </Route>
-        <Route path="/chinamoves/listings">
+        <Route path="/listings">
           <ListingsPage />
         </Route>
-        <Route path="/chinamoves/roommate">
+        <Route path="/roommate">
           <RoommatePage />
         </Route>
-        <Route path="/chinamoves/sublet">
+        <Route path="/sublet">
           <SubletPage />
         </Route>
-        <Route path={["", "/", "/chinamoves/", "/chinamoves"]}>
+        <Route path={["", "/"]}>
           <BodyContent />
         </Route>
       </Switch>
