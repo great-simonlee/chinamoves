@@ -12,6 +12,8 @@ a {
 }
 
 .footerInfo {
+  font-family: SimSun;
+  font-weight: 800;
   display: flex;
   margin-bottom: 4em;
 }

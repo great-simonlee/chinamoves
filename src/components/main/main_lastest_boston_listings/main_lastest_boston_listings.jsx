@@ -5,7 +5,7 @@ import styles from './main_lastest_boston_listings.module.css';
 const MainLastestBostonListings = (props) => (
     <>
         <div className={ styles.title }>
-            <h1>最新房源：波士顿</h1>
+            <h1 className={ styles.titleFont }>最新房源：波士顿</h1>
         </div>
         <div className={ styles.listingContainer }>
             <div className={ styles.listingCard }>

@@ -77,7 +77,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   font-family: "Raleway", sans-serif;
 }
 
@@ -110,8 +109,9 @@
 }
 
 .Btn {
+  font-family: SimSun;
+  font-weight: 800;
   margin: 0 1em;
-  font-weight: 500;
 }
 
 .Btn:hover {
@@ -232,4 +232,10 @@
 
 .userSignUpForm {
   display: none;
+  flex-direction: column;
+}
+
+.emailVerification {
+  display: none;
+  flex-direction: column;
 }

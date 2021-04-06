@@ -1,6 +1,8 @@
 .title {
   text-align: left;
   margin-top: 1em;
+  font-family: SimSun;
+  font-weight: 800;
 }
 
 .listingContainer {
